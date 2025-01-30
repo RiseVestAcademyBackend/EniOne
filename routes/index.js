@@ -19,4 +19,12 @@ router.get('/nameanthony', function(req, res, next) {
   res.render('viewanthony', { name: 'Anthony', nickname: "T ☕"})
 })
 
+router.get('/nameanthony', function(req, res, next) {
+  res.render('viewanthony', { name: 'Anthony', nickname: "T ☕"})
+})
+
+router.get('/namedamola', function(req, res, next) {
+  res.render('viewdamola', { name: 'Adedamola', nickname: "Toyibah", qualities: ['Smart', 'Hijabi', 'Computer Science']})
+})
+
 module.exports = router;
