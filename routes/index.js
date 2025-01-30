@@ -6,4 +6,13 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'EniOne' });
 });
 
+router.get('/namerufai', function(req, res, next) {
+  res.render('viewrufai', { name: 'Rufai', quality: "dark"});
+});
+
+
+router.get('/namefestus', function(req, res, next) {
+  res.render('viewrufai', { name: 'Rufai', quality: "dark"});
+});
+
 module.exports = router;
