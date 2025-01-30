@@ -15,4 +15,8 @@ router.get('/namefestus', function(req, res, next) {
   res.render('viewrufai', { name: 'Rufai', quality: "dark"});
 });
 
+router.get('/nameanthony', function(req, res, next) {
+  res.render('viewanthony', { name: 'Anthony', nickname: "T ☕"})
+})
+
 module.exports = router;
