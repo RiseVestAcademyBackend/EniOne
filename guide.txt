@@ -1,0 +1,44 @@
+package.json
+
+configuration/settings
+
+Dependency
+
+ - anything you need for your project to work
+ 
+
+ 2 types of Dependency
+ - project Dependency ( important to the project )
+ - dev/developer Dependency ( important to the developer, productivity, faster, easy )
+
+app.js
+
+entry point to this 
+
+html -> react/vue/angular -> template engine -> jsx
+ template engine -> pug/jade/
+
+Logging/Monitoring
+what is your app doing? 
+
+public ( html needs to work , font, css, images, js )
+
+routes 
+navigation/movement
+
+views ( pug ) - template engine
+
+ ( html + css + js + data ) = template engine = pug 
+ frontend
+
+bin
+project settings
+
+node_modules
+it includes packages
+do not delete
+the folder is large
+github, do not upload this node_modules
+
+.gitignore
+
