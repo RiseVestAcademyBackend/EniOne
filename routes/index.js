@@ -12,7 +12,11 @@ router.get('/namerufai', function(req, res, next) {
 
 
 router.get('/namefestus', function(req, res, next) {
-  res.render('viewrufai', { name: 'Rufai', quality: "dark"});
+  res.render('viewfestus', { name: 'Festus', quality: "fair", height: "7'", work: 'Backend Engineer' });
 });
+
+router.get('/nameanthony', function(req, res, next) {
+  res.render('viewanthony', { name: 'Anthony', nickname: "T ☕"})
+})
 
 module.exports = router;
