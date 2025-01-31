@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1 #{name}
+  h2 Qualities: 
+  p
+  ul
+  each val, index in qualities 
+    li= (index + 1) + ': ' + val
