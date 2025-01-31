@@ -2,4 +2,8 @@ extends layout
 
 block content
   h1= title
-  h2 Language Translation API
+  h2 Links to all views
+  ul   
+    each link in links 
+      a(href=link) Name
+
