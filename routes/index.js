@@ -10,14 +10,9 @@ router.get('/namerufai', function(req, res, next) {
   res.render('viewrufai', { name: 'Rufai', quality: "dark"});
 });
 
-
 router.get('/namefestus', function(req, res, next) {
   res.render('viewfestus', { name: 'Festus', quality: "fair", height: "7'", work: 'Backend Engineer' });
 });
-
-router.get('/nameanthony', function(req, res, next) {
-  res.render('viewanthony', { name: 'Anthony', nickname: "T ☕"})
-})
 
 router.get('/nameanthony', function(req, res, next) {
   res.render('viewanthony', { name: 'Anthony', nickname: "T ☕"})
@@ -34,4 +29,9 @@ router.get('/namefemi', function(req, res, next) {
 router.get('/nameebuka', function(req, res, next) {
   res.render('viewebuka', { name: 'Ebuka', qualities: ['Dark', 'Backend engineer', 'Art lover', 'Anime'] });
 });
+
+router.get('/namewemi', function(req, res, next) {
+  res.render('viewwemi', { name: 'Wemi', quality: "charismatic", weight: "70kg", role: 'anywork' });
+});
+
 module.exports = router;
