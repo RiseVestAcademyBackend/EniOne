@@ -3,7 +3,10 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'EniOne', links: ["/namerufai", "/namefestus", ] });
+  res.render('index', { title: 'EniOne', links: ["/namerufai", "/namefestus",
+     "/nameanthony", "/namedamola", "/namefemi", "/nameebuka", "/namewemi"
+    
+  ] });
 });
 
 router.get('/namerufai', function(req, res, next) {
