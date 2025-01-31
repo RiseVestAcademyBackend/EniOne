@@ -30,4 +30,8 @@ router.get('/namedamola', function(req, res, next) {
 router.get('/namefemi', function(req, res, next) {
   res.render('viewfemi', { name: 'Oluwafemi', nickname: "femi", quality: 'Chill guy'})
 })
+
+router.get('/nameebuka', function(req, res, next) {
+  res.render('viewebuka', { name: 'Ebuka', qualities: ['Dark', 'Backend engineer', 'Art lover', 'Anime'] });
+});
 module.exports = router;
