@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  .profile
+    h1 Welcome, #{name}!
+    h3 AKA "#{nickname}"
+    p Here’s are some likes:
+    ul
+      each i in likes
+        li 🎯 #{i}
+    p As you were!
