@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'EniOne', links: ["/namerufai", "/namefestus",
-     "/nameanthony", "/namedamola", "/namefemi", "/nameebuka", "/namewemi", "nameEkene"
+     "/nameanthony", "/namedamola", "/namefemi", "/nameebuka", "/namewemi", "nameEkene", "/nameTemitayo"
     
   ] });
 });
@@ -39,6 +39,10 @@ router.get('/namewemi', function(req, res, next) {
 
 router.get('/nameEkene', function(req, res, next) {
   res.render('viewEkene', { name: 'Ekene', nickname: "Shizuo", likes: ['Anime', 'Scrabble', 'Games']});
+});
+
+router.get('/nameTemitayo', function(req, res, next) {
+  res.render('viewtemitayo', { name: "Temitayo", quality: "Tall", study: "Electrical/Electronics Engineering", like: "Minecraft" });
 });
 
 module.exports = router;
