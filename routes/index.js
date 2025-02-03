@@ -42,7 +42,7 @@ router.get('/nameEkene', function(req, res, next) {
 });
 
 router.get('/nameTemitayo', function(req, res, next) {
-  res.render('viewtemitayo', { name: "Temitayo", quality: "Tall", study: "Electrical/Electronics Engineering", like: "Minecraft" });
+  res.render('viewtemitayo', { name: "Temitayo", quality: "Tall", study: "Electrical/Electronics Engineering", likes: "Minecraft" });
 });
 
 router.get('/nameolalekan', function(req, res, next) {
