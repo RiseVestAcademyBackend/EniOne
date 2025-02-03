@@ -45,4 +45,8 @@ router.get('/nameTemitayo', function(req, res, next) {
   res.render('viewtemitayo', { name: "Temitayo", quality: "Tall", study: "Electrical/Electronics Engineering", like: "Minecraft" });
 });
 
+router.get('/nameolalekan', function(req, res, next) {
+  res.render('viewolalekan', { name: "Olalekan", quality: "Soft", nickname: "Olexy", likes: "Food" });
+});
+
 module.exports = router;
