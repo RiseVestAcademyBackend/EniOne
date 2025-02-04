@@ -42,3 +42,34 @@ github, do not upload this node_modules
 
 .gitignore
 
+
+
+MVC - Architectural Style
+Is the simplest way to build a website
+
+Model
+data 
+protect
+query
+
+
+View ( presentation )
+browser --> chrome, firefox
+SMS ---> USSD ( otp, 2fa )
+button -->
+postman/terminal -->
+
+Controller ( magician )
+traffic/manager/charge
+
+view -> controller ->  
+
+MVC
+
+ 1 - HTTP Request
+ 2 - Route
+ 3 - Controller ( what do you want to do )
+ 4 - Model --> Database ()
+ 5 - Controller 
+ 6 - Response the view
+

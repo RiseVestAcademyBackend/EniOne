@@ -1,6 +1,35 @@
 var express = require('express');
 var router = express.Router();
 
+
+const data = [
+  {id : 1, title :  "Iron Man", year :  '2008'},
+  {id : 2, title :  "Thor", year :  '2010'},
+  {id : 3, title :  "Captain American", year :  '2018'},
+  {id : 4, title :  "King of Boys", year :  '2028'},
+]
+
+router.get("/movies",  (req,res,next) => {
+  res.status(200).json(data);
+})
+
+router.post("/auth/signin", (req,res, next) => {
+  res.redirect("/namedamola")
+  
+  res.status(200).json({
+    "name" : "wemi",
+    "bank" : "zenith",
+    "number" : 78
+  })
+})  
+router.get("/auth/signup", (req,res, next) => {
+  res.status(200).json({
+    "name" : "lekan",
+    "bank" : "zenith",
+    "number" : 78
+  })
+})  
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'EniOne', links: ["/namerufai", "/namefestus",
@@ -14,6 +43,7 @@ router.get('/namerufai', function(req, res, next) {
 });
 
 router.get('/namefestus', function(req, res, next) {
+  console.log(req)
   res.render('viewfestus', { name: 'Festus', quality: "fair", height: "7'", work: 'Backend Engineer' });
 });
 
@@ -30,6 +60,7 @@ router.get('/namefemi', function(req, res, next) {
 })
 
 router.get('/nameebuka', function(req, res, next) {
+  
   res.render('viewebuka', { name: 'Ebuka', qualities: ['Dark', 'Backend engineer', 'Art lover', 'Anime'] });
 });
 

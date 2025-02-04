@@ -3,7 +3,7 @@ extends layout
 block content
   h1= title
   h2 Links to all views
-  ul   
+  ol   
     each link in links 
      li 
         a(href=link) #{link.split("name")[1].toLocaleUpperCase()}
