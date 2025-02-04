@@ -52,5 +52,9 @@ router.get('/nameolalekan', function(req, res, next) {
 router.get('/namezara', function(req, res, next) {
   res.render('viewzara', { name: "CHIZARAM", mode: "HAPPY", color: "fair", height: "100cm" });
 });
+router.get('/nametiffany', function(req, res, next) {
+  res.render('viewtiffany', { name: "Tiffany", dislike: "Loud areas" });
+});
+
 
 module.exports = router;
