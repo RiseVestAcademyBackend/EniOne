@@ -16,14 +16,14 @@ router.get("/movies",  (req,res,next) => {
 router.post("/auth/signin", (req,res, next) => {
   res.redirect("/namedamola")
   
-  res.status(200).json({
+  res.send({
     "name" : "wemi",
     "bank" : "zenith",
     "number" : 78
   })
 })  
 router.get("/auth/signup", (req,res, next) => {
-  res.status(200).json({
+  res.json({
     "name" : "lekan",
     "bank" : "zenith",
     "number" : 78
