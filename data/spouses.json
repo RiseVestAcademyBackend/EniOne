@@ -1,0 +1,37 @@
+{
+    "persons": [
+      { "id": 1, "name": "Joe Catridge", "age": 28, "sex": "Male" },
+      { "id": 2, "name": "Jane Jacridge", "age": 28, "sex": "Female" },
+      { "id": 3, "name": "John Doe", "age": 30, "sex": "Male" },
+      { "id": 4, "name": "Mary Smith", "age": 27, "sex": "Female" },
+      { "id": 5, "name": "Mike Johnson", "age": 35, "sex": "Male" },
+      { "id": 6, "name": "Emily Davis", "age": 26, "sex": "Female" },
+      { "id": 7, "name": "Chris Wilson", "age": 29, "sex": "Male" },
+      { "id": 8, "name": "Emma Thompson", "age": 31, "sex": "Female" },
+      { "id": 9, "name": "James Brown", "age": 33, "sex": "Male" },
+      { "id": 10, "name": "Olivia White", "age": 24, "sex": "Female" },
+      { "id": 11, "name": "William Black", "age": 32, "sex": "Male" },
+      { "id": 12, "name": "Sophia Green", "age": 25, "sex": "Female" },
+      { "id": 13, "name": "Ethan Miller", "age": 34, "sex": "Male" },
+      { "id": 14, "name": "Ava Harris", "age": 28, "sex": "Female" },
+      { "id": 15, "name": "Mason Clark", "age": 27, "sex": "Male" },
+      { "id": 16, "name": "Isabella Lewis", "age": 30, "sex": "Female" },
+      { "id": 17, "name": "Michael Robinson", "age": 29, "sex": "Male" },
+      { "id": 18, "name": "Charlotte Walker", "age": 26, "sex": "Female" },
+      { "id": 19, "name": "Daniel Hall", "age": 35, "sex": "Male" },
+      { "id": 20, "name": "Amelia Allen", "age": 31, "sex": "Female" }
+    ],
+    "partners": [
+      { "id": 1, "personId": 1, "otherHalfId": 2 },
+      { "id": 2, "personId": 3, "otherHalfId": 4 },
+      { "id": 3, "personId": 5, "otherHalfId": 6 },
+      { "id": 4, "personId": 7, "otherHalfId": 8 },
+      { "id": 5, "personId": 9, "otherHalfId": 10 },
+      { "id": 6, "personId": 11, "otherHalfId": 12 },
+      { "id": 7, "personId": 13, "otherHalfId": 14 },
+      { "id": 8, "personId": 15, "otherHalfId": 16 },
+      { "id": 9, "personId": 17, "otherHalfId": 18 },
+      { "id": 10, "personId": 19, "otherHalfId": 20 }
+    ]
+  }
+  
