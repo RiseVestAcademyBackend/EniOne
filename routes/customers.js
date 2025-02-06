@@ -2,9 +2,6 @@ var express = require('express');
 var router = express.Router();
 
 
-
-
-
  const data = [
     {customerId : 1, title :  "Iron Man", year :  '2008'},
     {customerId : 2, title :  "Thor", year :  '2010'},
