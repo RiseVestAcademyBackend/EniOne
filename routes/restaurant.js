@@ -30,7 +30,8 @@ const MenuItems = [
 router.get("/", (req, res) => {
   res.status(200).json(Restaurants);
 });
-// Get all restaurants with their menu details (excluding MenuItemId)
+
+// Get all restaurants with their menu details
 router.get("/all", (req, res) => {
   const restaurantsWithMenu = Restaurants.map((restaurant) => {
     const menuItems = restaurant.MenuItemIds.map((itemId) =>
@@ -70,8 +71,8 @@ router.delete("/delete", (req, res) => {
   res.status(200).json({ message: "All restaurants deleted" });
 });
 
-// Get a particular restaurant by id
-router.get("/:id", (req, res) => {
+// Get a particular restaurant by RestaurantId
+router.get("/:RestaurantId", (req, res) => {
   const RestaurantId = parseInt(req.params.RestaurantId);
   const restaurant = Restaurants.find((r) => r.RestaurantId === RestaurantId);
   if (restaurant) {
@@ -81,8 +82,8 @@ router.get("/:id", (req, res) => {
   }
 });
 
-// Edit a particular restaurant by id
-router.put("/:id", (req, res) => {
+// Edit a particular restaurant by RestaurantId
+router.put("/:RestaurantId", (req, res) => {
   const RestaurantId = parseInt(req.params.RestaurantId);
   const updatedRestaurant = req.body;
   const index = Restaurants.findIndex((r) => r.RestaurantId === RestaurantId);
@@ -94,8 +95,8 @@ router.put("/:id", (req, res) => {
   }
 });
 
-// Delete a particular restaurant by id
-router.delete("/:id", (req, res) => {
+// Delete a particular restaurant by RestaurantId
+router.delete("/:RestaurantId", (req, res) => {
   const RestaurantId = parseInt(req.params.RestaurantId);
   const index = Restaurants.findIndex((r) => r.RestaurantId === RestaurantId);
   if (index !== -1) {
@@ -107,7 +108,7 @@ router.delete("/:id", (req, res) => {
 });
 
 // Get all menu items for a particular restaurant
-router.get("/:id/menu-items", (req, res) => {
+router.get("/:RestaurantId/menu-items", (req, res) => {
   const RestaurantId = parseInt(req.params.RestaurantId);
   const restaurant = Restaurants.find((r) => r.RestaurantId === RestaurantId);
   if (restaurant) {
@@ -121,7 +122,7 @@ router.get("/:id/menu-items", (req, res) => {
 });
 
 // Add a menu item to a restaurant
-router.post("/:id/menu-items", (req, res) => {
+router.post("/:RestaurantId/menu-items", (req, res) => {
   const RestaurantId = parseInt(req.params.RestaurantId);
   const menuItemId = req.body.MenuItemId;
   const restaurant = Restaurants.find((r) => r.RestaurantId === RestaurantId);
@@ -134,7 +135,7 @@ router.post("/:id/menu-items", (req, res) => {
 });
 
 // Update a menu item for a specific restaurant
-router.put("/:id/menu-items/:MenuItemId", (req, res) => {
+router.put("/:RestaurantId/menu-items/:MenuItemId", (req, res) => {
   const RestaurantId = parseInt(req.params.RestaurantId);
   const MenuItemId = parseInt(req.params.MenuItemId);
   const newMenuItemId = req.body.MenuItemId;
@@ -155,7 +156,7 @@ router.put("/:id/menu-items/:MenuItemId", (req, res) => {
 });
 
 // Delete a menu item from a restaurant
-router.delete("/:id/menu-items/:MenuItemId", (req, res) => {
+router.delete("/:RestaurantId/menu-items/:MenuItemId", (req, res) => {
   const RestaurantId = parseInt(req.params.RestaurantId);
   const MenuItemId = parseInt(req.params.MenuItemId);
   const restaurant = Restaurants.find((r) => r.RestaurantId === RestaurantId);
@@ -163,7 +164,7 @@ router.delete("/:id/menu-items/:MenuItemId", (req, res) => {
     restaurant.MenuItemIds = restaurant.MenuItemIds.filter(
       (id) => id !== MenuItemId
     );
-    res.status(200).json(restaurant);
+    res.status(200).json({ mesage: "Restaurant deleted" });
   } else {
     res.status(404).json({ message: "Restaurant not found" });
   }
@@ -194,8 +195,8 @@ router.delete("/menu-items", (req, res) => {
   res.status(200).json({ message: "All menu items deleted" });
 });
 
-// Get menu item by id
-router.get("/menu-items/:id", (req, res) => {
+// Get menu item by MenuItemId
+router.get("/menu-items/:MenuItemId", (req, res) => {
   const MenuItemId = parseInt(req.params.MenuItemId);
   const menuItem = MenuItems.find((m) => m.MenuItemId === MenuItemId);
   if (menuItem) {
@@ -205,8 +206,8 @@ router.get("/menu-items/:id", (req, res) => {
   }
 });
 
-// Delete a menu item by id
-router.delete("/menu-items/:id", (req, res) => {
+// Delete a menu item by MenuItemId
+router.delete("/menu-items/:MenuItemId", (req, res) => {
   const MenuItemId = parseInt(req.params.MenuItemId);
   const index = MenuItems.findIndex((m) => m.MenuItemId === MenuItemId);
   if (index !== -1) {
