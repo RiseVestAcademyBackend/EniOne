@@ -43,6 +43,7 @@ router.get("/", function (req, res, next) {
       "/nameebuka",
       "/namewemi",
       "nameEkene",
+      "/nameolalekan",
       "/nameTemitayo",
       "/namezara",
     ],
