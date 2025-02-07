@@ -11,6 +11,7 @@ var restaurantMenuRouter = require("./routes/restaurant");
 var studentRouter = require('./routes/students')
 var companyRouter = require('./routes/companyProduct')
 var employeeRouter = require("./routes/employees-departments")
+var artistRouter = require('./routes/artists');
 const countriesRouter = require('./routes/countriesCitiesRoute.js')
 
 var app = express();
@@ -32,6 +33,9 @@ app.use("/", modelBrands);
 app.use("/restaurant", restaurantMenuRouter);
 app.use("/company", companyRouter);
 app.use("/", employeeRouter);
+
+//app.use("/", employeeRouter);
+app.use("/artists", artistRouter);
 app.use('/countries', countriesRouter);
 
 
