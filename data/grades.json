@@ -1,0 +1,402 @@
+[
+    {
+        "studentId": 1,
+        "grade": 4.25
+    },
+    {
+        "studentId": 2,
+        "grade": 3.74
+    },
+    {
+        "studentId": 3,
+        "grade": 3.88
+    },
+    {
+        "studentId": 4,
+        "grade": 3.05
+    },
+    {
+        "studentId": 5,
+        "grade": 1.25
+    },
+    {
+        "studentId": 6,
+        "grade": 1.13
+    },
+    {
+        "studentId": 7,
+        "grade": 3.51
+    },
+    {
+        "studentId": 8,
+        "grade": 3.85
+    },
+    {
+        "studentId": 9,
+        "grade": 4.86
+    },
+    {
+        "studentId": 10,
+        "grade": 4.51
+    },
+    {
+        "studentId": 11,
+        "grade": 4.86
+    },
+    {
+        "studentId": 12,
+        "grade": 3.68
+    },
+    {
+        "studentId": 13,
+        "grade": 2.5
+    },
+    {
+        "studentId": 14,
+        "grade": 2.79
+    },
+    {
+        "studentId": 15,
+        "grade": 3.17
+    },
+    {
+        "studentId": 16,
+        "grade": 2.92
+    },
+    {
+        "studentId": 17,
+        "grade": 4.45
+    },
+    {
+        "studentId": 18,
+        "grade": 4.2
+    },
+    {
+        "studentId": 19,
+        "grade": 4.83
+    },
+    {
+        "studentId": 20,
+        "grade": 3.49
+    },
+    {
+        "studentId": 21,
+        "grade": 1.72
+    },
+    {
+        "studentId": 22,
+        "grade": 3.26
+    },
+    {
+        "studentId": 23,
+        "grade": 3.88
+    },
+    {
+        "studentId": 24,
+        "grade": 2.28
+    },
+    {
+        "studentId": 25,
+        "grade": 1.16
+    },
+    {
+        "studentId": 26,
+        "grade": 3.47
+    },
+    {
+        "studentId": 27,
+        "grade": 4.59
+    },
+    {
+        "studentId": 28,
+        "grade": 2.83
+    },
+    {
+        "studentId": 29,
+        "grade": 3.46
+    },
+    {
+        "studentId": 30,
+        "grade": 1.45
+    },
+    {
+        "studentId": 31,
+        "grade": 2.37
+    },
+    {
+        "studentId": 32,
+        "grade": 4.63
+    },
+    {
+        "studentId": 33,
+        "grade": 2.77
+    },
+    {
+        "studentId": 34,
+        "grade": 2.89
+    },
+    {
+        "studentId": 35,
+        "grade": 4.97
+    },
+    {
+        "studentId": 36,
+        "grade": 4.93
+    },
+    {
+        "studentId": 37,
+        "grade": 2.2
+    },
+    {
+        "studentId": 38,
+        "grade": 4.78
+    },
+    {
+        "studentId": 39,
+        "grade": 2.89
+    },
+    {
+        "studentId": 40,
+        "grade": 2.44
+    },
+    {
+        "studentId": 41,
+        "grade": 2.33
+    },
+    {
+        "studentId": 42,
+        "grade": 4.88
+    },
+    {
+        "studentId": 43,
+        "grade": 1.59
+    },
+    {
+        "studentId": 44,
+        "grade": 4.33
+    },
+    {
+        "studentId": 45,
+        "grade": 2.14
+    },
+    {
+        "studentId": 46,
+        "grade": 3.0
+    },
+    {
+        "studentId": 47,
+        "grade": 1.55
+    },
+    {
+        "studentId": 48,
+        "grade": 2.4
+    },
+    {
+        "studentId": 49,
+        "grade": 2.44
+    },
+    {
+        "studentId": 50,
+        "grade": 4.97
+    },
+    {
+        "studentId": 51,
+        "grade": 3.11
+    },
+    {
+        "studentId": 52,
+        "grade": 2.3
+    },
+    {
+        "studentId": 53,
+        "grade": 3.39
+    },
+    {
+        "studentId": 54,
+        "grade": 2.1
+    },
+    {
+        "studentId": 55,
+        "grade": 3.77
+    },
+    {
+        "studentId": 56,
+        "grade": 3.18
+    },
+    {
+        "studentId": 57,
+        "grade": 2.91
+    },
+    {
+        "studentId": 58,
+        "grade": 4.53
+    },
+    {
+        "studentId": 59,
+        "grade": 4.61
+    },
+    {
+        "studentId": 60,
+        "grade": 4.42
+    },
+    {
+        "studentId": 61,
+        "grade": 2.81
+    },
+    {
+        "studentId": 62,
+        "grade": 2.14
+    },
+    {
+        "studentId": 63,
+        "grade": 4.54
+    },
+    {
+        "studentId": 64,
+        "grade": 2.55
+    },
+    {
+        "studentId": 65,
+        "grade": 4.93
+    },
+    {
+        "studentId": 66,
+        "grade": 3.85
+    },
+    {
+        "studentId": 67,
+        "grade": 3.69
+    },
+    {
+        "studentId": 68,
+        "grade": 3.15
+    },
+    {
+        "studentId": 69,
+        "grade": 4.56
+    },
+    {
+        "studentId": 70,
+        "grade": 4.1
+    },
+    {
+        "studentId": 71,
+        "grade": 1.58
+    },
+    {
+        "studentId": 72,
+        "grade": 3.04
+    },
+    {
+        "studentId": 73,
+        "grade": 1.55
+    },
+    {
+        "studentId": 74,
+        "grade": 1.36
+    },
+    {
+        "studentId": 75,
+        "grade": 3.28
+    },
+    {
+        "studentId": 76,
+        "grade": 1.15
+    },
+    {
+        "studentId": 77,
+        "grade": 3.2
+    },
+    {
+        "studentId": 78,
+        "grade": 3.22
+    },
+    {
+        "studentId": 79,
+        "grade": 4.42
+    },
+    {
+        "studentId": 80,
+        "grade": 3.14
+    },
+    {
+        "studentId": 81,
+        "grade": 3.44
+    },
+    {
+        "studentId": 82,
+        "grade": 2.08
+    },
+    {
+        "studentId": 83,
+        "grade": 2.84
+    },
+    {
+        "studentId": 84,
+        "grade": 2.84
+    },
+    {
+        "studentId": 85,
+        "grade": 4.27
+    },
+    {
+        "studentId": 86,
+        "grade": 2.55
+    },
+    {
+        "studentId": 87,
+        "grade": 4.38
+    },
+    {
+        "studentId": 88,
+        "grade": 2.17
+    },
+    {
+        "studentId": 89,
+        "grade": 2.6
+    },
+    {
+        "studentId": 90,
+        "grade": 3.46
+    },
+    {
+        "studentId": 91,
+        "grade": 4.65
+    },
+    {
+        "studentId": 92,
+        "grade": 3.93
+    },
+    {
+        "studentId": 93,
+        "grade": 2.07
+    },
+    {
+        "studentId": 94,
+        "grade": 3.81
+    },
+    {
+        "studentId": 95,
+        "grade": 3.83
+    },
+    {
+        "studentId": 96,
+        "grade": 1.4
+    },
+    {
+        "studentId": 97,
+        "grade": 3.43
+    },
+    {
+        "studentId": 98,
+        "grade": 2.53
+    },
+    {
+        "studentId": 99,
+        "grade": 1.31
+    },
+    {
+        "studentId": 100,
+        "grade": 4.72
+    }
+]
