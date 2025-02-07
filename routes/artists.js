@@ -8,7 +8,7 @@ const music = require('../data/music.json');
 
 
 // Get all artists
-router.get("/artists", (req, res) => {
+router.get('/artists', (req, res) => {
     res.status(200).json(artists);
   });
 
@@ -202,3 +202,5 @@ router.put('/artists/:artist_id', (req, res) => {
         res.status(404).json({ message: 'Artist not found' });
     }
 });
+
+module.exports = router;
