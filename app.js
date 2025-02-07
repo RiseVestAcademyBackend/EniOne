@@ -11,6 +11,7 @@ var restaurantMenuRouter = require("./routes/restaurant");
 var studentRouter = require('./routes/students')
 var companyRouter = require('./routes/companyProduct')
 var employeeRouter = require("./routes/employees-departments")
+var artistRouter = require('./routes/artists');
 
 var app = express();
 
@@ -30,7 +31,8 @@ app.use('/', studentRouter);
 app.use("/", modelBrands);
 app.use("/restaurant", restaurantMenuRouter);
 app.use("/company", companyRouter);
-app.use("/", employeeRouter);
+//app.use("/", employeeRouter);
+app.use("/artists", artistRouter);
 
 
 // catch 404 and forward to error handler
