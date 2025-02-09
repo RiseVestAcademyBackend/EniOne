@@ -35,7 +35,7 @@ app.use("/company", companyRouter);
 app.use("/", employeeRouter);
 
 //app.use("/", employeeRouter);
-app.use("/artists", artistRouter);
+app.use("/cherryMusic", artistRouter);
 app.use('/countries', countriesRouter);
 
 
